@@ -6,16 +6,6 @@ from pynput.keyboard import Controller
 from pynput.keyboard import Key
 import webbrowser as wb
 
-# def start_class(c):
-#     wb.open(c[0])
-#     global is_class_started=True
-#     time.sleep(20)
-#     for i in range (7):
-#         pyautogui.press('tab')
-#     time.sleep(1)
-#     pyautogui.press('enter')
-#     time.sleep(5)
-    
 
 
 lst=[
@@ -63,7 +53,7 @@ for lecture  in lst:
          time_left=lecture[2]-lecture[1]
         # pyautogui.hotkey('ctrl','shift','m')
         
-         time.sleep(time_left*60)       #class joined, sleeping for the class period
+         time.sleep(time_left*10)       #class joined, sleeping for the class period
          
          #exiting
          is_class_started=False
@@ -74,11 +64,11 @@ for lecture  in lst:
          pyautogui.hotkey('alt','f4')
          
          
-    #Program run before the selected                            class timings     
+    #Program run before the selected class timings     
     elif   (datetime.now().hour*100 + datetime.now().minute < lecture[1]):
         
         time_left=lecture[1]-(datetime.now().hour*100 + datetime.now().minute)
-        time.sleep(time_left*60) 
+        time.sleep(time_left*10) 
                 # is_class_started=False
                 # pyautogui.hotkey('ctrl','shift','h')
                 # time.sleep(3)
