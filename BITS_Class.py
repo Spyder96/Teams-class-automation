@@ -8,12 +8,16 @@ import webbrowser as wb
 
 
 
+dataWarehouse='https://teams.microsoft.com/l/meetup-join/19%3ameeting_MzlkZTIwYjctNjk3NC00YjgxLTlmOGEtZTA4OTM0MThjNTVh%40thread.v2/0?context=%7b%22Tid%22%3a%22e24ac094-efd8-4a6b-98d5-a129b32a8c9a%22%2c%22Oid%22%3a%2290c83da1-fa35-474f-ae47-5367415cc22e%22%7d'
+operatingSystem='https://teams.microsoft.com/l/meetup-join/19%3ameeting_ZTE1NjdjODctN2NlNy00YTM2LTllZWQtZmY4ZTcwODc4NjQ5%40thread.v2/0?context=%7b%22Tid%22%3a%22e24ac094-efd8-4a6b-98d5-a129b32a8c9a%22%2c%22Oid%22%3a%22bcc87f62-9dc8-4a1f-84be-4bcae2d8b485%22%7d'
+computerNetworks='https://teams.microsoft.com/l/meetup-join/19%3ameeting_ODE5MDMxYjQtMzc0OC00ZGJjLWI5NmItYjYzMTFiYTJjOTMz%40thread.v2/0?context=%7b%22Tid%22%3a%22e24ac094-efd8-4a6b-98d5-a129b32a8c9a%22%2c%22Oid%22%3a%226400f058-59c6-4d48-9c30-a2600c8b2438%22%7d'
+database='https://teams.microsoft.com/l/meetup-join/19%3ameeting_OGRjNzgyZjAtNDgxYS00ZDk0LWJlYzMtZjcyMDQyYzg3YjYx%40thread.v2/0?context=%7b%22Tid%22%3a%22e24ac094-efd8-4a6b-98d5-a129b32a8c9a%22%2c%22Oid%22%3a%226400f058-59c6-4d48-9c30-a2600c8b2438%22%7d'
+
 lst=[
-     ['https://teams.microsoft.com/l/meetup-join/19%3ameeting_NmJhN2E2YzAtZWEwNy00OGIyLWI4YTYtNjdhODc4NTlhNWE5%40thread.v2/0?context=%7b%22Tid%22%3a%22e24ac094-efd8-4a6b-98d5-a129b32a8c9a%22%2c%22Oid%22%3a%2290c83da1-fa35-474f-ae47-5367415cc22e%22%7d', 855, 1035],
-     ['https://teams.microsoft.com/l/meetup-join/19%3ameeting_ZTE1NjdjODctN2NlNy00YTM2LTllZWQtZmY4ZTcwODc4NjQ5%40thread.v2/0?context=%7b%22Tid%22%3a%22e24ac094-efd8-4a6b-98d5-a129b32a8c9a%22%2c%22Oid%22%3a%22bcc87f62-9dc8-4a1f-84be-4bcae2d8b485%22%7d', 1055, 1235],
-     ['https://teams.microsoft.com/l/meetup-join/19%3ameeting_NTk4MGQyNzYtN2M0Yi00ZTZjLWI0NzYtNTQwOWVlZGJmNDAw%40thread.v2/0?context=%7b%22Tid%22%3a%22e24ac094-efd8-4a6b-98d5-a129b32a8c9a%22%2c%22Oid%22%3a%226e87e067-c2c2-4036-8a2f-2c2f0973f5c7%22%7d', 1355, 1535],
-     ['https://teams.microsoft.com/l/meetup-join/19%3ameeting_YjE2NzFjMmEtNmQ1Mi00MzBhLWJkODctZmExMjI2ZGM3Mjll%40thread.v2/0?context=%7b%22Tid%22%3a%22e24ac094-efd8-4a6b-98d5-a129b32a8c9a%22%2c%22Oid%22%3a%22de1d3b87-021b-4dbb-95df-93eab2f143bd%22%7d', 1555, 1735]
-     
+     [dataWarehouse, '08:55', '10:35'],
+     [operatingSystem, '10:55', '12:35'],
+     [computerNetworks, '13:55', '15:35'],
+     [database, '15:55', '17:35']
      ]
 
 
