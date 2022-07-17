@@ -14,10 +14,10 @@ computerNetworks='https://teams.microsoft.com/l/meetup-join/19%3ameeting_ODE5MDM
 database='https://teams.microsoft.com/l/meetup-join/19%3ameeting_OGRjNzgyZjAtNDgxYS00ZDk0LWJlYzMtZjcyMDQyYzg3YjYx%40thread.v2/0?context=%7b%22Tid%22%3a%22e24ac094-efd8-4a6b-98d5-a129b32a8c9a%22%2c%22Oid%22%3a%226400f058-59c6-4d48-9c30-a2600c8b2438%22%7d'
 
 lst=[
-     [dataWarehouse, '08:55', '10:35'],
-     [operatingSystem, '10:55', '12:35'],
-     [computerNetworks, '13:55', '15:35'],
-     [database, '15:55', '17:35']
+     [dataWarehouse, 855, 1035],
+     [operatingSystem, 1055, 1235],
+     [computerNetworks, 1355, 1535],
+     [database, 1555, 1735]
      ]
 
 
